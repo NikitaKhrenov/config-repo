@@ -3,4 +3,4 @@ test: value
 test1:
   test2: value1
 
-password: {cipher}84065ef6e316fa32cbe9f0b93df4f969194fc13e137ab07682a846917a0245a3
+password: '{cipher}84065ef6e316fa32cbe9f0b93df4f969194fc13e137ab07682a846917a0245a3'
