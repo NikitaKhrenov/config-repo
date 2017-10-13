@@ -1,12 +1,12 @@
 spring:
   data:
     mongodb:
-      host: auth-mongodb
+      host: localhost
       username: user
-      password: ${MONGODB_PASSWORD}
+      password: '{cipher}AgC3nARNt3kdy5VVAQkiMS+DU8Xfa1u+D2hpIHCzLRbExz1aFYmzQfe7z+LEzKzz1nxo/Uorni9ltUa8UdiayMGUvxRSs/rycySVys9bZt67CZZgjv+Oh72WHxmhg/istQVvHusnH9/tEC8lAfdONngBTkuc6M0n7vbKYONqGzH08YcSDV+aBZ5/5QNK29Jp9PvUuKQ6xNddAlgpfkULbjW44D+Os0U/vlVTM3gYkOCGpnRQZdGXIOvhZfPpMpo3wTQa4gSQaGnG5aCeWEWducs/DDo9GD9137drukkr1D8FJpgu+E43AxVDQWYjG1Xa5+nn1H14xrbXP58JBRTecEuPvbxTsI+FP+/FH/+N7FpUHFZINqF2Q8vcAs9yaUfWG6lwrE/labKwDDqsInw6DmqDAx8giMwsCJvJkbuYCFbW+6/amXhUMWH3yjpY5iqt4ecY5vsF37i+2XFOz2q9YPcP72j6Y84CjVpPgndBJu4yVUUhyWOariGBgNBx/znd5yYsZlA4ezhA4o3jjlsvuLeOBkMzA8Qv6+zW/eC5Qnr9ZFE/+naruZ5RRf03lE0jyDQZnrUbjod7yw1lIiaUbNQRz+J3sGwZq2kHO19w8uaSjqz97lOt00Gjxtmd7orOhjSP17AUluzz4TX5tGfSrfR5dHKM6X9RrE2gLsiamDAlTiXGgJwIDEI32d8iMCux66b8DP9wPsZrPSqDnnHGfwDG'
       database: gribovodmicroserviceapp
       port: 27017
 
 server:
-  context-path: /uaa
+  context-path: /auth
   port: 5000
