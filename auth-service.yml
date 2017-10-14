@@ -11,6 +11,11 @@ server:
   context-path: /auth
   port: 5000
 
+security:
+  oauth2:
+    resource:
+    filter-order : 3
+
 jwt:
   key-store:
     path: jwt.jks
