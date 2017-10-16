@@ -7,7 +7,7 @@ security:
       grant-type: client_credentials
       scope: server
     resource:
-      userInfoUri: http://localhost:5000/auth/user
+      userInfoUri: http://localhost:5000/auth/users
 
 spring:
   data:
